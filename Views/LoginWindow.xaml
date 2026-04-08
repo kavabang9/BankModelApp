@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BankModelApp.View"
         mc:Ignorable="d"
-        Title="LoginWindow"
+        Title="Авторизация"
         Height="450"
         Width="400">
     <Grid>
@@ -57,14 +57,14 @@
                 FontSize="15"
                 Padding="0"
                 Cursor="Hand">
-            <TextBlock TextAlignment="Center" 
+            <!--<TextBlock TextAlignment="Center" 
                         Width="400">
-        <Hyperlink NavigateUri="https://example.com" 
-               RequestNavigate="Hyperlink_RequestNavigate"
-               Command="{Binding OpenLinkCommand}">
-                   Аккаунт ещё не создан?
-        </Hyperlink>
-            </TextBlock>
+                    <Hyperlink NavigateUri="https://example.com" 
+                               RequestNavigate="Hyperlink_RequestNavigate"
+                               Command="{Binding OpenLinkCommand}">
+                               Аккаунт ещё не создан?
+                    </Hyperlink>
+            </TextBlock> -->
         </Label>
     </Grid>
 </Window>

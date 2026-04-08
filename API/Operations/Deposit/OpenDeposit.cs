@@ -2,5 +2,6 @@
 {
     internal class OpenDeposit : Operation // Открытие счета
     {
+
     }
 }

@@ -2,5 +2,9 @@
 {
     internal class Contribution : Operation
     {
+        public Contribution(decimal amountMoney) 
+        {
+            AmountMoney = amountMoney;
+        }
     }
 }

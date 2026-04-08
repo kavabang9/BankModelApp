@@ -58,14 +58,14 @@
             FontSize="15"
             Padding="0"
             Cursor="Hand">
-            <TextBlock TextAlignment="Center" 
+            <!--<TextBlock TextAlignment="Center" 
                        Width="400">
                 <Hyperlink NavigateUri="https://example.com" 
                        RequestNavigate="Hyperlink_RequestNavigate"
                        Command="{Binding OpenLinkCommand}">
                            Аккаунт уже существует?
                 </Hyperlink>
-            </TextBlock>
+            </TextBlock>-->
         </Label>
     </Grid>
 </Window>

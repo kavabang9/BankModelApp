@@ -1,9 +1,17 @@
-﻿using BankModelApp.API.Operations.Deposit;
+﻿using BankModelApp.API.Operations;
+using System.Windows.Media;
 
 namespace BankModelApp.API.Model.MoneyTransfer
 {
-    internal class MoneyTransfer : OpenDeposit // Перевод 
+    internal class MoneyTransfer : Operation // Перевод 
     {
-
+        public MoneyTransfer(decimal amountMoney)
+        {
+            AmountMoney = amountMoney;
+        }
+        private decimal TransferFundsAnotherAccount()
+        {
+            return (decimal)AmountMoney;
+        }
     }
 }
