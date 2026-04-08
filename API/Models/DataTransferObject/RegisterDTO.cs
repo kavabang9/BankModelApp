@@ -5,8 +5,10 @@ namespace BankModelApp.API.Models.DataTransferObject
     internal class RegisterDTO : RegisterViewModel
     {
         private string phone;
-
         private string password;
+        private string Name;    // надо реализовать
+        private string Surname;     // надо реализовать
+        private string Email;      // надо реализовать
 
         public string TempPhone
         {
@@ -30,7 +32,7 @@ namespace BankModelApp.API.Models.DataTransferObject
                 password = value;
             }
         }
-        public RegisterDTO(string  phone, string password)
+        public RegisterDTO(string phone, string password)
         {
             phone = TempPhone;
             password = TempPassword;

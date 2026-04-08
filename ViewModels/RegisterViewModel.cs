@@ -10,18 +10,11 @@ namespace BankModelApp.ViewModels
 {
     class RegisterViewModel : INotifyPropertyChanged
     {
-        public ICommand OpenLoginWindowCommand { get; }
-
         public event PropertyChangedEventHandler? PropertyChanged;
 
         public RegisterViewModel()
         {
 
-        }
-        private void OpenLoginWindow()
-        {
-            LoginWindow loginWindow = new LoginWindow();
-            loginWindow.Show();
         }
     }
 }

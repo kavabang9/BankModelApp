@@ -2,7 +2,7 @@
 
 namespace BankModelApp.API.Model.MoneyTransfer
 {
-    internal class MoneyTransfer : OpenDeposit
+    internal class MoneyTransfer : OpenDeposit // Перевод 
     {
 
     }

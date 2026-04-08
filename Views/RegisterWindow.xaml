@@ -11,10 +11,10 @@
     <Grid>
         <Label Content="Регистрация" 
                HorizontalAlignment="Center" 
-               Margin="0,49,0,0" 
+               Margin="0,29,0,0" 
                VerticalAlignment="Top" 
-               Width="200"
-               FontSize="30"/>
+               Width="250"
+               FontSize="40"/>
         <TextBox HorizontalAlignment="Center" 
                  Margin="0,159,0,0" 
                  TextWrapping="Wrap" 
@@ -53,16 +53,16 @@
             HorizontalAlignment="Center" 
             Margin="0,359,0,0" 
             VerticalAlignment="Top" 
-            Width="200"
+            Width="400"
             Height="25"
             FontSize="15"
             Padding="0"
             Cursor="Hand">
             <TextBlock TextAlignment="Center" 
-                       Width="200">
+                       Width="400">
                 <Hyperlink NavigateUri="https://example.com" 
                        RequestNavigate="Hyperlink_RequestNavigate"
-                       Command="{Binding OpenLinkCommand}"> <!-- для MVVM -->
+                       Command="{Binding OpenLinkCommand}">
                            Аккаунт уже существует?
                 </Hyperlink>
             </TextBlock>
