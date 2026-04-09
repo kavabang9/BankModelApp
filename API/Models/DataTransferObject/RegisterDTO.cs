@@ -7,8 +7,8 @@ namespace BankModelApp.API.Models.DataTransferObject
         private string phone;
         private string password;
         private string Name;    // надо реализовать
-        private string Surname;     // надо реализовать
-        private string Email;      // надо реализовать
+        private string Surname;    // надо реализовать
+        private string Email;    // надо реализовать
 
         public string TempPhone
         {

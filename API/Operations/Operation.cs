@@ -8,7 +8,6 @@ namespace BankModelApp.API.Operations
     {
         public int AccountId { get; set; }
         public DateTime Date { get; set; }
-        public decimal AmountMoney { get; set; }
 
         public void Execute()
         {
