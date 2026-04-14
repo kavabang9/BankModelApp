@@ -5,13 +5,11 @@ namespace BankModelApp.API.Model.MoneyTransfer
 {
     internal class MoneyTransfer : Operation // Перевод 
     {
-        public MoneyTransfer(decimal amountMoney)
-        {
-            AmountMoney = amountMoney;
-        }
-        private decimal TransferFundsAnotherAccount()
-        {
-            return (decimal)AmountMoney;
-        }
+        public string TransferId { get; set; }
+        public string SenderAccountId { get; set; }
+        public string ReceiverAccountId { get; set; }
+        public decimal Amount { get; set; }
+        public object Status { get; set; } // ?
+        public DateTime TransferDate { get; set; }
     }
 }

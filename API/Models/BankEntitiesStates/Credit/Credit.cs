@@ -1,14 +1,7 @@
 ﻿namespace BankModelApp.API.Models.BankEntities.Credit
 {
-    internal class Credit : Deposit
+    internal class Credit
     {
-        public Credit(decimal amountMoney)
-        {
-            AmountMoney = amountMoney;
-        }
-        private void ExtraditionCredit()
-        {
 
-        }
     }
 }

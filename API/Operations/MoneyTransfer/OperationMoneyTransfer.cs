@@ -5,9 +5,14 @@ namespace BankModelApp.API.Model.MoneyTransfer
 {
     internal class OperationMoneyTransfer : Operation // Перевод средств со счета
     {
-        public OperationMoneyTransfer(decimal amountMoney)
+        private string senderAccountId;
+        private string receiverAccountId;
+        private decimal amount;
+        private MoneyTransfer moneyTransfer;
+
+        public OperationMoneyTransfer(string senderAccountId, string receiverAccountId,
+                                      decimal amount, string currency)
         {
-            AmountMoney = amountMoney;
         }
     }
 }

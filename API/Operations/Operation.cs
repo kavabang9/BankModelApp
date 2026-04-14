@@ -4,18 +4,16 @@ using System.Text;
 
 namespace BankModelApp.API.Operations
 {
-    internal class Operation
+    public abstract class Operation
     {
-        public int AccountId { get; set; }
-        public DateTime Date { get; set; }
+        public string OperationId { get; set; }
+        public string OperationName { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public Guid Id { get; set; }
 
-        public void Execute()
-        {
-
-        }
-        public void Check()
-        {
-
-        }
+        public abstract void Execute();
+        public abstract void Validate();
+        public abstract void Rollback();
+        public abstract void OperationDetails();
     }
 }

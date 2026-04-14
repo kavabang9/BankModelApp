@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using BankModelApp.API.Models.BankEntitiesStates.Deposit;
+﻿using BankModelApp.API.Models.BankEntitiesStates.Cards;
 
 namespace BankModelApp.API.Models.BankEntities.Cards
 {
-    internal class DebtCard : Deposit
+    public class DebtCard : Card
     {
-        public DebtCard()
+        public decimal Balance { get; set; }
+        public override string GetCardType()
         {
-
+            return "DebtCard";
         }
     }
 }

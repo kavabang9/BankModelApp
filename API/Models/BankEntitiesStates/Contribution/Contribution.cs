@@ -1,12 +1,7 @@
-﻿using BankModelApp.API.Operations;
-
-namespace BankModelApp.API.Models.BankEntities.Contribution
+﻿namespace BankModelApp.API.Models.BankEntities.Contribution
 {
-    internal class Contribution : Deposit // Вклады
+    internal class Contribution
     {
-        public Contribution(decimal amountMoney) 
-        {
-            AmountMoney = amountMoney;
-        }
+
     }
 }

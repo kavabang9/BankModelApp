@@ -1,10 +1,7 @@
 ﻿namespace BankModelApp.API.Models.BankEntities.Credit
 {
-    public class Mortgage : Deposit // Ипотека
+    public class Mortgage
     {
-        public Mortgage(decimal amountMoney)
-        {
-            AmountMoney = amountMoney;
-        }
+
     }
 }

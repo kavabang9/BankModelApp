@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using BankModelApp.API.Models.BankEntitiesStates.Cards;
 
 namespace BankModelApp.API.Models.BankEntities.Cards
 {
-    internal class CreditCard
+    public class CreditCard : Card
     {
-        public CreditCard()
+        public decimal Debt { get; set; }
+        public override string GetCardType()
         {
-
+            return "CreditCard";
         }
     }
 }
